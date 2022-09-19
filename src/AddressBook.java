@@ -16,9 +16,12 @@ import java.util.ArrayList;
 
         AddressBook ab = new AddressBook();
         BuddyInfo newContact = new BuddyInfo("Jawad", "236 Kiwanis", "6132617875");
-        ab.removeBuddy(newContact);
-        ab.addBuddy(newContact);
+
         System.out.println("Address Book");
+
+        ab.addBuddy(newContact);
+        ab.removeBuddy(newContact);
+
 
     }
 
